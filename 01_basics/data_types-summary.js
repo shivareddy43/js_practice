@@ -23,3 +23,24 @@ let myObj = {
 const myFunction = function(){
     console.log("Hello!!!!!");
 }
+
+// Stack(Primitive), Heap(Non-primitive)
+
+let firstname = "shiva"
+let fullname = firstname;
+fullname="shivareddy"
+console.log(fullname);
+console.log(firstname);
+
+
+let userOne = {
+    email:"user@gmail.com",
+    username:"user1"
+}// memory is allocated in heap memory
+
+let userTwo = userOne
+
+userTwo.email = "user2@gmail.com";
+console.log(userOne.email);
+console.log(userTwo.email);
+
