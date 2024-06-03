@@ -132,3 +132,16 @@ console.log(boundGetValue()); // Output: 42
 // Function Generators: Functions that can pause and resume.
 // Method Binding: Using bind to set this context.
 
+
+// ======= Types of arguments //
+// Fixed Arguments: Standard arguments expected in the function definition.
+// Default Parameters: Setting default values for arguments.
+// Rest Parameters: Collecting multiple arguments into an array.
+// The arguments Object: Accessing all arguments passed to a function (not in arrow functions).
+// Spread Operator: Passing array elements as individual arguments.
+// Named Parameters: Using object destructuring to simulate named parameters.
+// Handling Optional Parameters: Using default values or checking for undefined.
+// Callback Functions: Passing functions as arguments for callbacks.
+// Variadic Functions: Functions that accept a variable number of arguments.
+// Type Checking and Validation: Ensuring argument types are correct to avoid errors.
+
