@@ -10,3 +10,10 @@ const array2 = [1, 2, 3, 4, 5];
 for (let i = 0; i < array2.length; i++) {
     console.log(array2[i]);
 }
+
+for(const key in array){
+    console.log(key) // 0,1,2 -> indexes
+}
+for (const key of array) {
+    console.log(key); // gives elements in array
+}
