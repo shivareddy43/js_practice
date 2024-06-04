@@ -17,3 +17,13 @@ for(const key in array){
 for (const key of array) {
     console.log(key); // gives elements in array
 }
+
+array.forEach(function (val){
+    console.log(val)
+})
+array.forEach((val)=>{
+    console.log(val)
+})
+array.forEach((item,index,arr)=>{
+    console.log(item,index,arr)
+})
